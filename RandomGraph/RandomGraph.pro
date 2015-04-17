@@ -42,7 +42,9 @@ LIBS_DYN_LINK = C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/QT5CORE.DLL \
                 C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/icudt52.dll \
                 C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/QT5GUI.DLL \
                 C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/QT5WIDGETS.DLL \
-                C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/QT5XML.DLL
+                C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/QT5XML.DLL \
+                C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/libgcc_s_dw2-1.dll \
+                C:/DevTools/Qt/Qt5.3.2/5.3/mingw482_32/bin/libstdc++-6.dll
 
 CONFIG(release, debug|release): DESTDIR = $${OUT_PWD}/release
 CONFIG(debug, debug|release): DESTDIR = $${OUT_PWD}/debug
